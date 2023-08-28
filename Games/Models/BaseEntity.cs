@@ -1,0 +1,11 @@
+﻿namespace Games.Models
+{
+    public class BaseEntity
+    {
+        public int Id { get; set; }
+
+        [MinLength(250)]
+        public string Name { get; set; }
+
+    }
+}
