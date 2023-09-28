@@ -4,7 +4,7 @@
     {
         public int Id { get; set; }
 
-        [MinLength(250)]
+        [MinLength(250), Required]
         public string Name { get; set; }
 
     }

@@ -1384,8 +1384,9 @@
 }
 
 .bg-primary {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+    background: rgb(15,33,110);
+    background: linear-gradient(90deg, rgba(15,33,110,1) 0%, rgba(58,120,177,1) 36%, rgba(62,103,149,1) 100%);
+    --bs-bg-opacity: 1;
 }
 
 .bg-secondary {
