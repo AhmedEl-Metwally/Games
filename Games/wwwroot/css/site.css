@@ -79,8 +79,12 @@ body {
 
     .select2-container--default .select2-selection--multiple .select2-selection__choice {
         background-color: #5897fb;
-        color: #0e1724;
+        color: #f6f6f6;
         border: 1px solid #250d49;
+    }
+
+    .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+        color: #252525;
     }
 
     .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
